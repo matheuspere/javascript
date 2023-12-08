@@ -7,8 +7,24 @@
 </head>
 <body>
     <h1>Vc é Gringo ou Brasileiro!?</h1>
-    Qual a sua nacionalidade: <input type="text" name="" id="">
-    <input type="button" value="">
+    Qual a sua nacionalidade: <input type="text" name="txtnal" id="txtnal">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+        function calcular() {
+           var Brasil = window.document.querySelector('input#txtnal')
+           var res = window.document.querySelector('div#res')
+           var nal = Text (Brasil.valeu)
+           res.innerHTML = `<p> Vivendo em ${nal}`
+                if (país == 'Brasil') {
+                    console.log('Você é Brasileiro!')
+                } else {
+                    console.log('Você é Estrageiro!')
+                }
+                        }
+    </script>
     
 </body>
 </html>
