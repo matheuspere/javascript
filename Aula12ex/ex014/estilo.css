@@ -1,0 +1,63 @@
+@charset "UTF-8"
+
+/* Color Theme Swatches in Hex */
+.UI/UX-1-hex { color: #403E3F; }
+.UI/UX-2-hex { color: #2793F2; }
+.UI/UX-3-hex { color: #22A2F2; }
+.UI/UX-4-hex { color: #22B7F2; }
+.UI/UX-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.UI/UX-1-rgba { color: rgba(63, 61, 62, 1); }
+.UI/UX-2-rgba { color: rgba(38, 147, 242, 1); }
+.UI/UX-3-rgba { color: rgba(33, 162, 242, 1); }
+.UI/UX-4-rgba { color: rgba(33, 183, 242, 1); }
+.UI/UX-5-rgba { color: rgba(12, 12, 12, 1); }
+
+/* Color Theme Swatches in HSLA */
+.UI/UX-1-hsla { color: hsla(326, 1, 24, 1); }
+.UI/UX-2-hsla { color: hsla(208, 88, 55, 1); }
+.UI/UX-3-hsla { color: hsla(202, 89, 54, 1); }
+.UI/UX-4-hsla { color: hsla(196, 89, 54, 1); }
+.UI/UX-5-hsla { color: hsla(0, 0, 5, 1); }
+
+
+
+
+body {
+background-color:#2793F2;
+font-size: 15pt;
+
+font-family: Arial, Helvetica, sans-serif
+
+
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-family: 'Silkscreen', sans-serif;
+
+}
+
+section {
+    background-color: #403E3F;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+
+}
+
+div {
+    text-align: center;
+    padding: 10px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

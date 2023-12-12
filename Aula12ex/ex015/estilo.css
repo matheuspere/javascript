@@ -1,0 +1,52 @@
+@charset "UTF-8"
+
+/* Color Theme Swatches in Hex */
+.Education-app-design-|-UX/UI-1-hex { color: #D2BBF2; }
+.Education-app-design-|-UX/UI-2-hex { color: #F2EA79; }
+.Education-app-design-|-UX/UI-3-hex { color: #A6A158; }
+.Education-app-design-|-UX/UI-4-hex { color: #F26E50; }
+.Education-app-design-|-UX/UI-5-hex { color: #8C493A; }
+
+/* Color Theme Swatches in RGBA */
+.Education-app-design-|-UX/UI-1-rgba { color: rgba(209, 186, 242, 1); }
+.Education-app-design-|-UX/UI-2-rgba { color: rgba(242, 234, 121, 1); }
+.Education-app-design-|-UX/UI-3-rgba { color: rgba(165, 160, 87, 1); }
+.Education-app-design-|-UX/UI-4-rgba { color: rgba(242, 109, 79, 1); }
+.Education-app-design-|-UX/UI-5-rgba { color: rgba(140, 72, 57, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Education-app-design-|-UX/UI-1-hsla { color: hsla(264, 68, 84, 1); }
+.Education-app-design-|-UX/UI-2-hsla { color: hsla(56, 82, 71, 1); }
+.Education-app-design-|-UX/UI-3-hsla { color: hsla(56, 30, 49, 1); }
+.Education-app-design-|-UX/UI-4-hsla { color: hsla(11, 86, 63, 1); }
+.Education-app-design-|-UX/UI-5-hsla { color: hsla(11, 41, 38, 1); }
+
+
+body {
+background-color:#D2BBF2;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15pt;
+}
+
+header {
+    color: white;
+    text-align: center;
+
+}
+
+section {
+    background-color: #403E3F;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
